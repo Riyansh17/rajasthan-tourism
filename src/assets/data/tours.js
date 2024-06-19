@@ -1,0 +1,122 @@
+import tourImg01 from "../images/tour-img01.jpg";
+import tourImg02 from "../images/tour-img02.jpg";
+import tourImg03 from "../images/tour-img03.jpg";
+import tourImg04 from "../images/tour-img04.jpg";
+import tourImg05 from "../images/tour-img05.jpg";
+import tourImg06 from "../images/tour-img06.jpg";
+import tourImg07 from "../images/tour-img07.jpg";
+import tourImg08 from "../images/tour-img08.jpg"
+
+const tours = [
+  {
+    id: "01",
+    title: "",
+    city: "Jaipur",
+    distance: 300,
+    price: 99,
+    maxGroupSize: 10,
+    desc: "",
+    reviews: [
+      {
+        name: "user",
+        rating: 4.6,
+      },
+    ],
+    avgRating: 4.5,
+    photo: tourImg01,
+    featured: true,
+  },
+  {
+    id: "02",
+    title: "",
+    city: "Udaipur",
+    distance: 400,
+    price: 99,
+    maxGroupSize: 8,
+    desc: "",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg02,
+    featured: true,
+  },
+  {
+    id: "03",
+    title: "",
+    city: "Jodhpur",
+    distance: 500,
+    price: 99,
+    maxGroupSize: 8,
+    desc: "",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg03,
+    featured: true,
+  },
+  {
+    id: "04",
+    title: "",
+    city: "Jaisalmer",
+    distance: 500,
+    price: 99,
+    maxGroupSize: 8,
+    desc: "",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg04,
+    featured: true,
+  },
+  {
+    id: "05",
+    title: "",
+    city: "Pushkar",
+    distance: 500,
+    price: 99,
+    maxGroupSize: 8,
+    desc: "",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg05,
+    featured: false,
+  },
+  {
+    id: "06",
+    title: "",
+    city: "Bikaner",
+    distance: 500,
+    price: 99,
+    maxGroupSize: 8,
+    desc: "",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg06,
+    featured: false,
+  },
+  {
+    id: "07",
+    title: "",
+    city: "Mount Abu",
+    distance: 500,
+    price: 99,
+    maxGroupSize: 8,
+    desc: "",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg07,
+    featured: false,
+  },
+  {
+    id: "08",
+    title: "",
+    city: "Ranthambore National Park",
+    distance: 500,
+    price: 99,
+    maxGroupSize: 8,
+    desc: "",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg08,
+    featured: false,
+  },
+];
+
+export default tours;
