@@ -15,3 +15,7 @@
     background: var(--secondary-color);
     color: #fff;
 }
+.tour__info h5{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
